@@ -8,5 +8,3 @@ vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
 vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>')
-
-vim.api.nvim_set_hl(0,"TelescopeNormal",{bg="none"})

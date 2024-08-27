@@ -20,18 +20,16 @@ return {
               action = 'Telescope find_files',
               key = 'f',
             },
-            --{
-            --  desc = ' Apps',
-            --  group = 'DiagnosticHint',
-            --  action = 'Telescope app',
-            --  key = 'a',
-            --},
-            --{
-            -- desc = ' dotfiles',
-            -- group = 'Number',
-            -- action = 'Telescope dotfiles',
-            --  key = 'd',
-            --},
+            {
+              desc = ' New Project',
+              action = 'ProjectNew',
+              key = 'a',
+            },
+            {
+              desc = ' Open Project',
+              action = 'ProjectOpen',
+              key = 'd',
+            },
           },
         },
       }
